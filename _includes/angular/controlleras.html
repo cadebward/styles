@@ -1,0 +1,9 @@
+<!-- avoid -->
+<div ng-controller="Customer">
+{% raw %}    {{ name }}{% endraw %}
+</div>
+
+<!-- recommended -->
+<div ng-controller="Customer as customer">
+{% raw %}    {{ customer.name }}{% endraw %}
+</div>
